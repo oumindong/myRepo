@@ -27,7 +27,7 @@ public class OkhttpUtil {
          */
         INSTANCE;
 
-        private OkHttpClient instance;
+        private final OkHttpClient instance;
 
         /**
          * JVM保证这个方法绝对只调用一次
